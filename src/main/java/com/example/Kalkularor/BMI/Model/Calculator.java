@@ -23,7 +23,7 @@ public class Calculator {
         } else if (bmi >= 16.0 && bmi <= 16.99) {
             return "wychudzenie";
         } else if (bmi >= 17.0 && bmi <= 18.49) {
-            return "wiedowagę";
+            return "niedowagę";
         } else if (bmi >= 18.5 && bmi <= 24.99) {
             return "wagę prawidłową";
         } else if (bmi >= 25.0 && bmi <= 29.99) {
