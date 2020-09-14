@@ -9,15 +9,21 @@
 <form action="/result">
     <h1 th:text="${powitanie}"></h1><br>
     <p th:text="${opis}"/><br>
-    <p th:text="${wzrost}"/><br>
-    <input type="number" name="height">
     <p th:text="${waga}"/><br>
     <input type="number" name="weight"><br>
+    <p th:text="${wzrost}"/><br>
+    <input type="number" name="height">
     <input type="submit" value="Generuj">
+    <section style="position: absolute; bottom: 5px; right: 25px;">
+        <p>
+            Sprawdź inne moje projekty
+            <a href="https://github.com/KamilRogala25"
+               target="_blank" title="Like My Page!">
+                github.com/KamilRogala25
+            </a>
+        </p>
+    </section>
 
-<!--    <p>Name: <input type="text" size=65 name="Name"> </p><br>-->
-<!--    <p> Address: <input type="text" size=65 name="Address">  </p><br>-->
-<!--    <p><input type="submit" value="send" name="Submit"> </p><br>-->
 </form>
 </body>
 </html>

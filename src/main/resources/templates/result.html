@@ -1,10 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="https://www.thymeleaf.org/">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Wyniki</title>
 </head>
 <body>
+<h1>Wyniki kalkulacji dla Twoich danych</h1>
+<p>Twoje BMI to <span th:text="${wynik}"></span>.</p>
+<p>I oznacza <span th:text="${opis}"></span>.</p>
+
+<section style="position: absolute; bottom: 5px; right: 25px;">
+    <p>
+        Sprawdź inne moje projekty
+        <a href="https://github.com/KamilRogala25"
+           target="_blank" title="Like My Page!">
+            github.com/KamilRogala25
+        </a>
+    </p>
+</section>
 
 </body>
 </html>
