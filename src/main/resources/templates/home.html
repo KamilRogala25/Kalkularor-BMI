@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org/">
+<head>
+    <meta charset="UTF-8">
+    <title>Kalkulator BMI</title>
+</head>
+<body>
+
+<form action="/result">
+    <h1 th:text="${powitanie}"></h1><br>
+    <p th:text="${opis}"/><br>
+    <p th:text="${wzrost}"/><br>
+    <input type="number" name="height">
+    <p th:text="${waga}"/><br>
+    <input type="number" name="weight"><br>
+    <input type="submit" value="Generuj">
+
+<!--    <p>Name: <input type="text" size=65 name="Name"> </p><br>-->
+<!--    <p> Address: <input type="text" size=65 name="Address">  </p><br>-->
+<!--    <p><input type="submit" value="send" name="Submit"> </p><br>-->
+</form>
+</body>
+</html>

@@ -1,6 +1,6 @@
-package Model;
+package com.example.Kalkularor.BMI.Model;
 
-abstract class Calculator {
+public abstract class Calculator {
 
     public static double roundTwoPlaces(double toRound) {
         toRound = Math.round(toRound * 100.0) / 100.0;
