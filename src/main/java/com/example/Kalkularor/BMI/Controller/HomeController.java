@@ -23,8 +23,6 @@ public class HomeController {
         Calculator calculator = new Calculator();
         map.put("wynik", calculator.calculateBmi(weight,height));
         map.put("opis", calculator.getBmiDescription(calculator.calculateBmi(weight, height)));
-//        map.put("weight", weight);
-//        map.put("height", height);
         return "result";
     }
 
